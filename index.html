@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Tic Tac Toe</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    /> -->
+    <script defer src="scrips.js"></script>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <br /><br />
+    <div class="wrapper">
+      <!-- <div class="aside aside-1"></div> -->
+      <div class="aside"></div>
+      <div class="container board">
+        <div class="row-1">
+          <div class="col square shade" data-index="00"></div>
+          <div class="col square" data-index="01"></div>
+          <div class="col square shade" data-index="02"></div>
+        </div>
+        <div class="row-2">
+          <div class="col square" data-index="10"></div>
+          <div class="col square shade" data-index="11"></div>
+          <div class="col square" data-index="12"></div>
+        </div>
+        <div class="row-3">
+          <div class="col square shade" data-index="20"></div>
+          <div class="col square" data-index="21"></div>
+          <div class="col square shade" data-index="22"></div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper2">
+      <div class="aside"></div>
+      <div class="reset-container">
+        <div class="col player p1">
+          <span class="dot 1 active"></span>
+          <!-- figure out inline elements and such -->
+          <p class="playerTag">Player X</p>
+        </div>
+        <div class="reset-button">
+          <button class="btn reset">Reset Game</button>
+        </div>
+        <div class="col player p2">
+          <span class="dot 2"></span>
+          <p class="playerTag">Player O</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

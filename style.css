@@ -1,0 +1,112 @@
+/* coloors: https://coolors.co/fec5bb-fcd5ce-fae1dd-f8edeb-e8e8e4-d8e2dc-ece4db-ffe5d9-ffd7ba-fec89a */
+
+html {
+  height: 100%;
+  background: linear-gradient(#5e60ce, #72efdd);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.wrapper {
+  display: flex;
+}
+
+.wrapper2 {
+  display: flex;
+}
+
+.aside {
+  width: 20vh;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fec89a;
+  height: 600px;
+  width: 600px;
+}
+
+.row-1 {
+  display: flex;
+  flex: 1;
+}
+.row-2 {
+  display: flex;
+  flex: 1;
+}
+.row-3 {
+  display: flex;
+  flex: 1;
+}
+.square {
+  flex: 1;
+  /* height: 200px;
+  width: 200px; */
+}
+
+.shade {
+  background-color: #f8edeb;
+}
+
+.dot {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+  opacity: 0.25;
+  display: inline-block;
+}
+
+.active {
+  opacity: 0.95;
+}
+
+.player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset-container {
+  display: inline-flex;
+  width: 600px;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.reset-button {
+  display: flex;
+  /* width: 600px;
+  justify-content: center;
+  align-items: center; */
+}
+
+.btn {
+  background-color: #007af3;
+  color: white;
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  border-radius: 2em;
+  border-style: none;
+  margin-top: 1em;
+  text-shadow: none;
+  font-size: 1.4em;
+}
+
+.p1 {
+  margin-right: 3.2em;
+  margin-left: 3em;
+  margin-top: 1.5em;
+}
+
+.p2 {
+  margin-left: 3.5em;
+  margin-top: 1.5em;
+}
